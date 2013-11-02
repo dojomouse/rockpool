@@ -1,0 +1,14 @@
+<template name="layout">
+	<head>
+  		<title>Skeleton</title>
+  		<meta name="viewport" content="width=device-width, initial-scale=0.666667, maximum-scale=0.666667, user-scalable=0">
+	</head>
+	<body>
+  		<div class="container">
+    		{{> header}}
+    		<div id="main" class="row-fluid">
+      			{{yield}}
+    		</div>
+  		</div>
+	</body>
+</template>
